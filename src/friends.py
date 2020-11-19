@@ -28,3 +28,11 @@ def total_money(people_dictionaries):
         money += person['monies']
     return money
 
+    
+#7
+
+def l_money(ler, lee, amount):
+    ler['monies'] -= amount
+    lee["monies"] += amount
+    print (ler["monies"])
+    print (lee["monies"])
